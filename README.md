@@ -26,13 +26,13 @@ from matplotlib import font_manager, rc
 font_name = font_manager.FontProperties(fname="c:\windows\Fonts\malgun.ttf").get_name()
 rc('font', family = font_name)
 
-filename = input("연도를 입력하세요" )
+filename = input("연도를 입력하세요 (2014~2017)" )
 
 df = pd.read_csv(filename + ".csv")
 
 #print(df)
 
-x = input("살인, 강도, 강간강제추행, 절도, 폭력")
+x = input("범죄를 선택 하세요 : 살인, 강도, 강간강제추행, 절도, 폭력")
 df1 = df[x]
 #print(df1)
 
@@ -50,35 +50,14 @@ w = dict(zip(z,y))
 data_x = []
 data_y = []
 
-m1 = max(w, key=w.get)
-print("1위", m1)
-data_x.append(m1)
-data_y.append(w[m1])
-del w[m1]
 
-m2 = max(w, key=w.get)
-print("2위", m2)
-data_x.append(m2)
-data_y.append(w[m2])
-del w[m2]
+for i in range(1,6) :
+    m = max(w, key=w.get)
+    print(i,"위 ", m )
+    data_x.append(m)
+    data_y.append(w[m])
+    del w[m]
 
-m3 = max(w, key=w.get)
-print("3위", m3)
-data_x.append(m3)
-data_y.append(w[m3])
-del w[m3]
-
-m4 = max(w, key=w.get)
-print("4위", m4)
-data_x.append(m4)
-data_y.append(w[m4])
-del w[m4]
-
-m5 = max(w, key=w.get)
-print("5위", m5)
-data_x.append(m5)
-data_y.append(w[m5])
-del w[m5]
 
 print(data_x)
 print(data_y)
@@ -89,4 +68,5 @@ ax = plt.axes()
 #plt.grid(axis='y')
 plt.bar(data_x, data_y, label = filename, color = 'b')
 plt.show()
+
 ~~~
