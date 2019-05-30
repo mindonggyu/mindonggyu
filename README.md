@@ -36,7 +36,7 @@ x = input("범죄를 선택 하세요 : 살인, 강도, 강간강제추행, 절�
 df1 = df[x]
 #print(df1)
 
-dfg1 = round(df.groupby('자치구')[x].mean(),2)
+#dfg1 = round(df.groupby('자치구')[x].mean(),2)
 #print(dfg1)
 
 y = list(df1)
