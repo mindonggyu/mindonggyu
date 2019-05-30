@@ -10,7 +10,10 @@
 
 ## 사용한 공공데이터 
 [데이터보기]
-[2014년 범죄율 데이터](https://github.com/mindonggyu/mindonggyu/blob/master/2014.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2015.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2016.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2017.csv)
+[2014년 범죄율 데이터](https://github.com/mindonggyu/mindonggyu/blob/master/2014.csv)
+[](https://github.com/mindonggyu/mindonggyu/blob/master/2015.csv)
+[](https://github.com/mindonggyu/mindonggyu/blob/master/2016.csv)
+[](https://github.com/mindonggyu/mindonggyu/blob/master/2017.csv)
 
 ## 소스
 * [링크로 소스 내용 보기](https://github.com/cybermin/python2019/blob/master/tes.py) 
