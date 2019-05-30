@@ -9,7 +9,8 @@
 자치구마다 범죄율이 상이하게 차이가 납니다. 범죄율 데이터를 분석해서 범죄의 취약한 지역에 인력보강과 cctv 확충하여 안전한 치안을 확보 할 수 있습니다. 
 
 ## 사용한 공공데이터 
-[데이터보기](https://github.com/mindonggyu/mindonggyu/blob/master/2014.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2015.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2016.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2017.csv)
+[데이터보기]
+(https://github.com/mindonggyu/mindonggyu/blob/master/2014.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2015.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2016.csv), (https://github.com/mindonggyu/mindonggyu/blob/master/2017.csv)
 
 ## 소스
 * [링크로 소스 내용 보기](https://github.com/cybermin/python2019/blob/master/tes.py) 
