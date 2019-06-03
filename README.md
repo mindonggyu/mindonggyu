@@ -61,8 +61,8 @@ for i in range(1,6) :
     del w[m]
 
 
-print(data_x)
-print(data_y)
+#print(data_x)
+#print(data_y)
 
 
 ax = plt.axes()
